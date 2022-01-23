@@ -1,0 +1,346 @@
+
+   
+  
+  @media only screen and (max-width: 768px) {
+    .cr-h1 {
+      font-size: 34px !important;
+    }
+  }
+
+
+  p{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  
+}
+ 
+
+  
+/***********Home*********/
+
+.navbar{
+
+    background-color: rgba(194, 192, 192,0.2) !important;
+}
+
+.nav-item {
+    margin-right:10px;
+}
+.nav-item  a{
+    color: rgb(255, 255, 255) !important;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight:600;
+
+}
+ .nav-item a:hover{
+    color: #F26762 !important;
+}
+
+.my-item{
+    background-image: url("images/slideshow-1.jpg");
+    background-position: center center;
+    background-size: cover;
+    
+}
+.my-item1{
+    background-image: url("images/slideshow-2.jpg");
+    background-position: center center;
+    background-size: cover;
+    
+}
+.my-item2{
+    background-image: url("images/slideshow-3.jpg");
+    background-position: center center;
+    background-size: cover;
+    
+}
+.my-carousel-btn1{ 
+    width: 30px;
+    height:6%;
+    color: white;
+    border: 1px solid white;
+    position: absolute;
+    top:44%;
+    left: 0%;
+}
+.my-carousel-btn1:hover{
+    background-color: white;
+    border-color:#F26762;
+}
+.my-carousel-btn2{
+    width: 30px;
+    height:6%;
+    color: white !important;
+    border: 1px solid white;
+    position: absolute;
+    top:50%;
+    left: 0%;
+}
+.my-carousel-btn2:hover{
+    background-color: white;
+    border-color:#F26762;
+}
+.cr-h1{
+    position: relative;
+    left:150%;
+    transition: left 1s;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size:70px;
+    width: 60%;
+    font-weight: 700;
+    text-align: center;
+    
+}
+.carousel-item.active h1{
+     left: 0%;
+     
+
+}
+.last-div{
+   z-index:500; 
+}
+.home-mouse{
+  
+  width: 25px;
+  height: 37px;
+  border: 1px solid white;
+  border-radius:20px;
+  position: relative;
+
+}
+.home-mouse::before{
+ content: "";
+ position: absolute;
+ width: 7px;
+ height: 7px;
+ border-radius: 50%;
+ background-color: white;
+ opacity: 1;
+ top:20%;
+left:35%;
+animation-name: dot;
+animation-duration: 1.5s;
+animation-iteration-count: infinite;
+}
+@keyframes dot {
+    from {top:5% ;opacity:1; }
+    to {top: 50%;  opacity: 0;}
+    
+}
+.btn-gear{
+    position:fixed;
+    top:30% ;
+    left:0%;
+    z-index: 999;
+}
+
+/*********** End Home*********/
+
+
+
+/*********** About*********/
+
+.header h2{  
+    font-family: 'Poppins', sans-serif;
+    font-weight:700;
+    font-size: 55px;    
+    color: rgb(236, 232, 232);
+
+}
+.header h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight:700;
+    font-size: 38px
+
+}
+
+.header h2::before{
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 50%;
+    background-color: #090b0f;
+    top:105%;
+    left:30%;
+    transition: transform .5s;
+
+}
+.header:hover h2::before{
+    transform: scale(1.7);
+    
+       
+}
+.num h6{
+    font-size: 14px;
+}
+.about-p p{
+    font-size: 14px;
+    text-align: left;
+}
+
+/*********** End about*********/
+
+
+/***********Team****************/
+.img-member{
+    transition: transform 1s;
+}
+
+.img-logos{
+    background-color: rgba(242, 103, 98,0.7);
+    top:100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: top;
+    
+}
+
+.team-img1:hover .img-logos{
+    top:0%;
+}
+.team-img1:hover .img-member{
+    transform: scale(1.1);
+
+}
+.team-img1:hover .title-h5{
+    color: #F26762;
+
+}
+.team p{
+   font-size: 14px;
+}
+.team-1 h2{
+    font-size:32px;
+    font-family:'Poppins', sans-serif;
+    font-weight: 600;
+}
+.team button{
+    background-color: #F25454;
+    color: white;
+}
+/******* End Team**********/
+
+
+/*********Services*********/
+.services-icon{
+    color: #F26762;
+}
+.services-h5:hover{
+    color: #F26762;
+
+}
+.ser-row p{
+    font-size: 14px;
+    text-align: left;
+    
+}
+.ser-row h5{
+    font-size:18px;
+    font-family:'Poppins', sans-serif;
+    font-weight: 600;
+}
+/********End Services*******/
+
+
+
+
+/*************Blog*************/
+.car-img{
+    width:100px;
+    height:100px;
+}
+.carousel-inner p{
+    font-size:25px;
+    
+}
+
+/************* End Blog*************/
+
+
+
+
+/********Contact***********/
+
+.form-control::placeholder{
+    font-size: 14px;
+       
+    color: rgba(211, 199, 199, 0.822);
+
+}
+input:focus{
+    border-color: #F26762 !important;
+    box-shadow: none !important;
+    border-width: 2px;
+
+}
+textarea:focus{
+    border-color: #F26762 !important;
+    box-shadow: none !important;
+    border-width: 2px;
+
+
+}  
+.contact p{
+    font-size: 14px;
+    text-align: left;
+}  
+.contact button{
+    background-color: #F25454;
+    color: white;
+}
+/******** End Contact***********/
+footer{
+    background-image:url("images/dotted-map.png");
+    background-size: cover;
+    background-position: center center;
+    background-color: #222222;
+}
+footer h5{
+    color:white;
+    font-weight: bold;
+
+}
+footer p{
+   color: rgb(176, 176, 176);
+   font-size: 14px;
+
+   text-align: left;
+}
+footer a{
+    text-decoration:none;
+    color: rgb(176, 176, 176);
+    font-size: 14px;
+
+}
+.a-btn{
+    text-decoration:none;
+    color: rgb(176, 176, 176);
+    font-size: 14px;
+    border: 1px solid rgb(176, 176, 176);
+
+}
+.a-btn:hover{
+    border-color: #F26762;
+}
+footer a:hover{
+    color:#F26762;
+
+}
+footer ul{
+    list-style: none;
+}
+.footer-end{
+    background-color: #1A1A1A !important;
+}
+.footer-i:hover{
+    color:#F26762 !important;
+
+}
+   
+
+
