@@ -1,3 +1,3 @@
 # Devfolio
-use bootstrap5
+HTML5/CSS/BOOTSTRAP5
 
